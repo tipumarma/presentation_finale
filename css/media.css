@@ -1,0 +1,207 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px){
+	/*header starts*/
+	.menu a{
+    font-size: 12px !important;
+	padding:6px 0px !important;
+	color: white !important;
+}
+
+.menu a:hover{
+	display: inline-block ;
+	background-color: transparent !important;
+	color: blue !important;
+}
+.h_text h1{
+	font-size: 20px;
+}
+.p_text p{
+    font-size: 10px;
+}
+/*form starts*/
+.f_img{
+    padding-top: 25px;
+    padding-bottom: 35px;
+}
+/*service starts*/
+.f_container {
+    padding-top: 100px;
+    padding-bottom: 73px;
+}
+.s2_text h2 {
+    font-size: 14px;
+    color: #062353;
+}
+.s3_text p {
+    font-size: 7px;
+    color: #062353;
+}
+.m_t_90 {
+    padding-top: 40px;
+}
+.service {
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+.i_p_text p{
+	padding: 0 15px;
+	font-size: 11px;
+}
+/*choice starts*/
+.choice {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: #fdfbfa;
+}
+.c_text {
+    padding: 35px 0;
+}
+/*number starts*/
+.N_icon {
+    padding: 33px 0 20px 0;
+}
+.footer_item {
+	text-align: center;
+}
+/*footer starts*/
+.padding {
+    padding-top: 80px;
+    padding-bottom: 70px;
+}
+
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+/*header starts*/
+.menu a{
+	font-size: 14px !important;
+	padding:6px 0px !important;
+	color: white !important;
+}
+.menu a:hover{
+	display: inline-block ;
+	background-color: transparent !important;
+	color: blue !important;
+}
+.h_text h1{
+	font-size: 40px;
+}
+
+/*service starts*/
+.m_t_90 {
+    padding-top: 60px;
+}
+.service {
+    padding-top: 80px;
+    padding-bottom: 70px;
+}
+.s2_text h2 {
+    font-size: 20px;
+    color: #062353;
+}
+.s3_text p {
+    font-size: 11px;
+    color: #062353;
+}
+.i_p_text p{
+	padding: 0 15px;
+	font-size: 11px;
+}
+/*choice starts*/
+.choice {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    background-color: #fdfbfa;
+}
+.c_text {
+    padding: 40px 0;
+}
+/*number starts*/
+.N_icon {
+    padding: 33px 0 20px 0;
+}
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+/*header starts*/
+.menu a{
+	padding:6px 0px !important;
+	color: white !important;
+}
+.menu a:hover{
+	display: inline-block ;
+	background-color: transparent !important;
+	color: blue !important;
+}
+.h_text h1{
+	font-size: 66px;
+}
+
+/*service starts*/
+.s2_text h2 {
+    font-size: 20px;
+    color: #062353;
+}
+.s3_text p {
+    font-size: 9px;
+    color: #062353;
+}
+.i_p_text p{
+	padding: 0 15px;
+	font-size: 14px;
+}
+/*choice starts*/
+.c_text{
+	padding: 60px 0;
+}
+.C_text h4{
+	font-size: 15px !important;
+}
+.c_text h2{
+	font-size: 24px !important;
+}
+.c_text p {
+    font-size: 12px !important;
+}
+.btn {
+    font-size: 11px !important;
+}
+/*number starts*/
+.N_icon {
+    padding: 33px 0 20px 0;
+}
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+/*header starts*/
+.menu a{
+	padding:0 20px !important;
+	color: white !important;
+}
+.h_text h1{
+	font-size: 76px;
+}
+
+/*service starts*/
+.s2_text h2 {
+    font-size: 26px;
+    color: #062353;
+}
+.s3_text p {
+    font-size: 13px;
+    color: #062353;
+}
+.i_p_text p{
+	padding: 0 15px;
+	font-size: 14px;
+}
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+}
+/* Extra extra large devices ( extra large desktops, 1400px and up)*/
+@media (min-width: 1400px) {}
